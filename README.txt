@@ -1,3 +1,5 @@
+Erwan Thibaud - Titouan Michon - Corentin Pak
+
 Toute notre animation et notre programme sont métaphoriquement un timelapse représentant les dégâts de la désinformation sur les sujets environnementaux, dans notre société.
 Dans notre animation, à première vue les boids représente les humains, des utilisateurs, et le rond bleu, de code hexadécimal #00acee, Twitter, un réseau social, sur lequel malheureusement beaucoup de gens affirment des choses sans être qualifié/ mal informé et/ou propagent de la désinformation. Aujourd’hui le projet Swarm à montré que les sujets traitant de la crise climatique, étaient grandement menacés par cette désinformation, une menace grandissante quand on sait que si on n’agit pas rapidement, la planète est voué à un destin tragique.
 

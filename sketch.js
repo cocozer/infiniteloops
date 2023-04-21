@@ -1,16 +1,9 @@
 var Cityburn;
-var Hatch;
-var Boycott;
-var Got_Heroin;
 
 function preload(){
   Cityburn = loadFont('cityburn.ttf');
-  Hatch = loadFont('Hatch.ttf');
-  Boycott = loadFont('BOYCOTT_.TTF');
-  Got_Heroin = loadFont('Got_Heroin.ttf');
 }
 
-// let lastLogTime = 0; // stocke le moment où la dernière exécution a eu lieu
 let finalState = false;
 let circleAllowed = true;
 let animAlmostFinished = 25000;
@@ -153,7 +146,7 @@ fill(lerpedColor);
     let interval = 1000;
     if (wordsBecomeCrazy && !circleClicked) {
       writeFlashingWords(words, 10);
-    } else if (!wordsBecomeCrazy){
+    } else if (!wordsBecomeCrazy){ // A la base on écrit les mots 
       writeWords(words, 10, interval);
     }
   }, 5000);
@@ -230,7 +223,7 @@ function writeWords(words, spacing, intervalTime) {
       x += wordWidth + spacing;
       wordIndex++;
       if (millis() + 500 > ((millis()-10000)/25)) {
-        nextWordTime = millis()  + 500 - ((millis()-10000)/20); // Délai de 1 millisecondes entre chaque mot
+        nextWordTime = millis()  + 500 - ((millis()-10000)/20); // Délai décroissant entre chaque mot grâce à millis()
       } else {
         nextWordTime = millis()
       }
